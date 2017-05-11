@@ -1,6 +1,6 @@
 var url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 
-exports.sprites = {
+var sprites = {
   bulbasaur: {
     default: url.concat("1.png"),
   },
@@ -455,3 +455,11 @@ exports.sprites = {
     default: url.concat("103.png"),
   }
 }
+
+exports.getSprite = function(pokemon, type) {
+  var downcasedPokemon = pokemon.toLowerCase();
+  if ( type === undefined ) {
+    type = 'default'
+  }
+  return sprites[downcasedPokemon][type];
+};
