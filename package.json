@@ -1,6 +1,6 @@
 {
   "name": "pokemon-images",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "images of pokemon from the pokemon api",
   "main": "index.js",
   "scripts": {
