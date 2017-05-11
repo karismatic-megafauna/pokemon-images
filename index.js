@@ -1,6 +1,6 @@
 var url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 
-exports.pokemonSprites = {
+exports.sprites = {
   bulbasaur: {
     default: url.concat("1.png"),
   },
