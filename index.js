@@ -391,7 +391,7 @@ exports.sprites = {
   starmie: {
     default: url.concat("121.png"),
   },
-  mr-mime: {
+  "mr-mime": {
     default: url.concat("122.png"),
   },
   jynx: {
